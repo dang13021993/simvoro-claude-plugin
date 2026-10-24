@@ -1,1 +1,21 @@
-
+{
+  "name": "simvoro-esim-sms",
+  "displayName": "SimVoro – eSIM & SMS Services",
+  "version": "1.0.3",
+  "description": "Read-only SimVoro catalog guidance for travel eSIM plans, device compatibility, and publicly listed SMS service countries, prices and availability. Purchases and code delivery remain on simvoro.com.",
+  "author": {
+    "name": "SimVoro",
+    "url": "https://simvoro.com"
+  },
+  "homepage": "https://simvoro.com",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
+  "keywords": [
+    "simvoro",
+    "travel esim",
+    "device compatibility",
+    "sms services",
+    "sms pricing",
+    "temporary phone numbers"
+  ]
+}
