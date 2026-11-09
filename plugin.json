@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "simvoro-esim-sms",
+  "version": "1.0.0",
+  "description": "SimVoro: travel eSIM plans, device compatibility and public SMS service prices. Read-only catalog; purchases and code delivery stay on simvoro.com.",
+  "author": {
+    "name": "SimVoro",
+    "email": "helo@simvoro.com",
+    "url": "https://simvoro.com"
+  },
+  "homepage": "https://simvoro.com",
+  "license": "MIT",
+  "keywords": [
+    "simvoro",
+    "travel-esim",
+    "esim",
+    "sms-prices",
+    "mcp"
+  ]
+}

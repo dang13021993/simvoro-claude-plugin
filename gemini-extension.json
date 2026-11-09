@@ -1,0 +1,12 @@
+{
+  "name": "simvoro-esim-sms",
+  "version": "1.0.0",
+  "description": "SimVoro: travel eSIM plans, device compatibility and public SMS service prices. Read-only catalog; purchases and code delivery stay on simvoro.com.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "simvoro": {
+      "httpUrl": "https://simvoro.com/api/mcp",
+      "timeout": 30000
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "simvoro-esim-sms",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SimVoro: travel eSIM plans, device compatibility and public SMS service prices. Read-only catalog; purchases and code delivery stay on simvoro.com.",
+  "license": "MIT",
+  "homepage": "https://simvoro.com",
+  "author": "SimVoro <helo@simvoro.com>",
+  "keywords": [
+    "dsh",
+    "simvoro",
+    "travel-esim",
+    "esim",
+    "sms-prices",
+    "mcp"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "locale/*.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "simvoro-esim-sms",
+  "version": "1.0.0",
+  "description": "SimVoro: travel eSIM plans, device compatibility and public SMS service prices. Read-only catalog; purchases and code delivery stay on simvoro.com.",
+  "keywords": [
+    "simvoro",
+    "travel-esim",
+    "esim",
+    "sms-prices",
+    "mcp"
+  ],
+  "author": {
+    "name": "SimVoro",
+    "email": "helo@simvoro.com"
+  },
+  "homepage": "https://simvoro.com",
+  "license": "MIT",
+  "interface": {
+    "displayName": "SimVoro - eSIM & SMS Services",
+    "shortDescription": "Travel eSIM plans and public SMS service prices",
+    "longDescription": "Connects to the public, read-only SimVoro catalog MCP server (https://simvoro.com/api/mcp). Lists travel eSIM destinations and plans, checks the public device compatibility list, and shows publicly listed SMS services and prices. It never orders, rents numbers or handles verification codes; purchases stay on simvoro.com.",
+    "developerName": "SimVoro",
+    "websiteURL": "https://simvoro.com"
+  },
+  "mcpServers": {
+    "simvoro": {
+      "url": "https://simvoro.com/api/mcp"
+    }
+  }
+}
