@@ -1,7 +1,7 @@
 {
   "name": "simvoro-esim-sms",
   "displayName": "SimVoro – eSIM & SMS Services",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
   "type": "module",
   "description": "SimVoro: travel eSIM plans, device compatibility and public SMS service prices. Read-only catalog; purchases and code delivery stay on simvoro.com.",
