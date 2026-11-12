@@ -1,6 +1,7 @@
 {
   "name": "simvoro-esim-sms",
-  "version": "1.0.0",
+  "displayName": "SimVoro – eSIM & SMS Services",
+  "version": "1.0.4",
   "private": true,
   "type": "module",
   "description": "SimVoro: travel eSIM plans, device compatibility and public SMS service prices. Read-only catalog; purchases and code delivery stay on simvoro.com.",
@@ -20,14 +21,5 @@
     "locale/*.json",
     "README.md",
     "LICENSE"
-  ],
-  "exports": {
-    "./package.json": "./package.json",
-    "./locale/*.json": "./locale/*.json"
-  },
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    }
-  }
+  ]
 }
